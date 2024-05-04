@@ -11,6 +11,13 @@
 
 The _Dark Patterns Detector_ is a sophisticated web extension developed with _Next.js_, designed to systematically identify and analyze deceptive design elements, commonly known as "dark patterns," prevalent on various websites. These manipulative tactics exploit user behavior, and this extension aims to empower users by exposing and providing insights into such practices.
 
+
+## Screenshots
+
+| ![Home](https://github.com/zubairmh/dpbh-web/assets/113838495/0c79f231-a510-4944-a854-48cf954dae19) | ![Analysis](https://github.com/zubairmh/dpbh-web/assets/113838495/23a8fe07-a7b8-4bdd-93a5-706069cd012a) | ![About](https://github.com/zubairmh/dpbh-web/assets/113838495/3bd054c5-f35b-4be8-b3f8-c94ef04f59c8) |
+| :-------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------: |
+
+
 ## Features
 
 - **Pattern Detection:** Utilizing _ML model and image processing_ , the extension discerns and categorizes common dark patterns, including urgency, misdirection, scarcity, obstruction, social proof, sneaking, and forced action on websites.
@@ -18,6 +25,12 @@ The _Dark Patterns Detector_ is a sophisticated web extension developed with _Ne
 - **Pattern Counts:** Providing a transparent count of each detected dark pattern on a given webpage, the extension offers users valuable insights into the specific tactics employed.
 
 - **Interactive Visualization:** Results of the analysis are presented through an intuitive and interactive pie chart, enhanced by the [Recharts](https://recharts.org/) library. This visualization aids users in easily interpreting the distribution of dark patterns.
+
+### Process Flow Diagram
+
+![ProcessFlowFull drawio](https://github.com/zubairmh/dpbh-web/assets/113838495/3c09c4b6-d221-4dc8-8915-5519ee67fcf3)
+
+
 
 ## Getting Started
 
@@ -59,9 +72,6 @@ The _Dark Patterns Detector_ is a sophisticated web extension developed with _Ne
 | <img src="https://gist.githubusercontent.com/PonomareVlad/f7a37bce6ff2dc19971c681269a30b26/raw/6ead3403e203db1c9ea195b57f6026f1d498e7dc/arc.svg" width="24px" style="background: white" /> Arc |       ✅       | Download From Chrome Webstore                                                      |
 | <img src="https://raw.githubusercontent.com/edent/SuperTinyIcons/master/images/svg/opera.svg" width="24px" style="background: white" /> Opera                                                  |       ✅       | Download From Chrome Webstore                                                      |
 
-### Process Flow Diagram
-
-![ProcessFlowFull drawio](https://github.com/zubairmh/dpbh-web/assets/113838495/3c09c4b6-d221-4dc8-8915-5519ee67fcf3)
 
 ### Usage
 
@@ -71,10 +81,6 @@ The _Dark Patterns Detector_ is a sophisticated web extension developed with _Ne
 
 - **Visual Representation:** An interactive pie chart visually represents the distribution of dark patterns, enhanced using the [Recharts](https://recharts.org/) library.
 
-## Screenshots
-
-| ![Home](https://github.com/zubairmh/dpbh-web/assets/113838495/0c79f231-a510-4944-a854-48cf954dae19) | ![Analysis](https://github.com/zubairmh/dpbh-web/assets/113838495/23a8fe07-a7b8-4bdd-93a5-706069cd012a) | ![About](https://github.com/zubairmh/dpbh-web/assets/113838495/3bd054c5-f35b-4be8-b3f8-c94ef04f59c8) |
-| :-------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------: |
 
 ## License
 
