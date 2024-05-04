@@ -1,0 +1,80 @@
+{
+  "manifest_version": 3,
+  "name": "WebGuard",
+  "short_name": "WG",
+  "version": "2.1",
+  "description": "WebGuard is a multimodal dark pattern detector and blocker",
+  "icons": {
+    "16": "/police.png",
+    "32": "/police.png",
+    "48": "/police.png",
+    "192": "/police.png"
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "goyalparag54@gmail.com"
+    }
+  },
+  "permissions": [
+    "activeTab",
+    "declarativeNetRequest",
+    "webRequest",
+    "webRequestBlocking",
+    "storage",
+    "tts"
+  ],
+  "declarative_net_request": {
+    "rule_resources": [
+      {
+        "id": "ruleset_1",
+        "enabled": true,
+        "path": "rulesets/ruleset_1.json"
+      },
+      {
+        "id": "ruleset_2",
+        "enabled": true,
+        "path": "rulesets/ruleset_2.json"
+      },
+      {
+        "id": "ruleset_3",
+        "enabled": true,
+        "path": "rulesets/ruleset_3.json"
+      },
+      {
+        "id": "ruleset_4",
+        "enabled": true,
+        "path": "rulesets/ruleset_4.json"
+      },
+      {
+        "id": "ruleset_5",
+        "enabled": true,
+        "path": "rulesets/ruleset_5.json"
+      },
+      {
+        "id": "ruleset_6",
+        "enabled": true,
+        "path": "rulesets/ruleset_6.json"
+      }
+    ]
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "web_accessible_resources": [
+    {
+      "resources": ["/*"],
+      "matches": ["<all_urls>"]
+    }
+  ],
+  "content_scripts": [
+    {
+      "run_at": "document_idle",
+      "matches": ["https://*/*", "http://*/*"],
+      "js": ["inject.js"]
+    }
+  ],
+  "host_permissions": ["<all_urls>"],
+  "action": {
+    "default_popup": "index.html"
+  }
+}

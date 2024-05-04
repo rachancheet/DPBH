@@ -1,0 +1,9 @@
+.DS_Store
+/.next
+/node_modules
+/.env
+out
+public/easyList.txt
+public/easyList/rules/generate.js
+package-lock.json
+*.zip
