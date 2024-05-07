@@ -14,7 +14,9 @@ The _Dark Patterns Detector_ is a sophisticated web extension developed with _Ne
 
 ## Screenshots
 
-| ![Home](https://github.com/zubairmh/dpbh-web/assets/113838495/0c79f231-a510-4944-a854-48cf954dae19) | ![Analysis](https://github.com/zubairmh/dpbh-web/assets/113838495/23a8fe07-a7b8-4bdd-93a5-706069cd012a) | ![About](https://github.com/zubairmh/dpbh-web/assets/113838495/3bd054c5-f35b-4be8-b3f8-c94ef04f59c8) |
+
+
+| ![Home](https://github.com/rachancheet/DPBH/assets/55895940/f3d6cc15-f315-4fa4-95eb-8e5489a13d97) | ![Analysis](https://github.com/rachancheet/DPBH/assets/55895940/9384435f-500c-4747-bbb8-96ceff325193) | ![About](https://github.com/rachancheet/DPBH/assets/55895940/20d6e2bb-87ef-44f4-bb33-d944a71b98ef) |
 | :-------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------: |
 
 
